@@ -8,18 +8,15 @@ import { FruitlistdataService } from '../fruitlistdata.service';
   standalone: true,
   imports: [CommonModule, SingelfruitComponent],
   templateUrl: './fruitlist.component.html',
-  styleUrl: './fruitlist.component.scss'
+  styleUrl: './fruitlist.component.scss',
 })
 export class FruitlistComponent {
-
-  fruitlistdata = inject(FruitlistdataService)
-
+  fruitlistdata = inject(FruitlistdataService);
 
   addCommentFromInput(comment: string, index: number) {
     this.fruitlistdata.fruitlist[index].reviews.push({
       name: 'Author',
-      text: comment
-    })
+      text: comment,
+    });
   }
-
 }
