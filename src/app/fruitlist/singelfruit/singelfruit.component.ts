@@ -11,8 +11,9 @@ import { FormsModule } from '@angular/forms';
 })
 export class SingelfruitComponent {
 
-  fontColorRed = 'red';
-  fontColorGreen = 'green';
+  colorYellow = 'yellow';
+  colorGreen = 'green';
+  colorRed = 'red';
 
   @Input() fruit = {
     name: "Apfel",

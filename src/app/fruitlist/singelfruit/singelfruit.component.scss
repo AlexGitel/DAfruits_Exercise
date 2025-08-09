@@ -55,14 +55,17 @@
     }
 }
 
-.fontColorGreenAsClass {
-    color: green;
-}
-
-.fontColorRedAsClass {
+.asColorRed {
     color: red;
 }
 
+.asColorGreen {
+    color: green;
+}
+
+.asColorPurple {
+    color: rgb(184, 130, 255);
+}
 
 .fruits_types {
     padding: 8px;
